@@ -1,0 +1,219 @@
+/* for the index layout*/
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.46%;
+    background-color:azure;
+    
+
+}
+.logo {
+    width: 100px;
+    height: 90px;
+    padding: 5px;
+}
+
+ul > li > a{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    padding-right: 30px;
+   
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+main{
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    justify-content: space-evenly;
+    overflow:hidden;
+    width: auto;    
+    min-height: 100%;
+    position: relative;
+   
+    
+}
+h2 {
+    text-align: left;
+
+}
+
+/*Beginning of search field*/
+/*style the search field*/
+.form input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+    
+    
+}
+/*style the submit button*/
+.form button{
+    width: 20%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    float: right;
+    border: 1px solid grey;
+    border-left: none; /*Prevent double borders*/
+}
+.form input>button{
+    bottom: 10px;
+  /*Search field ends*/  
+}
+.banner{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    float: right;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: azure;
+}
+/* Place the navbar at the bottom of the page*/
+.navbar1{
+   overflow: hidden;
+   position: relative;
+   bottom: 5px;
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 5px;
+   padding: 5px;
+   text-decoration: none;
+   /*style the links inside the navigation bar*/
+
+    
+
+} 
+
+/*Begining of signup main*/
+h3 {
+    text-align: left;
+    font-size: 10px; 
+}
+.form-wrapper-1{ 
+    width: 300px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    
+    
+    
+    
+} 
+.form-div-1 {
+    display: block;
+     width: 100%;
+     height: 90%;
+     position: absolute;
+     background-color: #EFEFEF;
+      
+     
+ } 
+ form > input {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    
+    
+}
+
+.button {
+    background-color:greenyellow;
+    color: #FFFFFF;
+    font-weight: 200;
+    display: inline-block;
+    text-align: center !important;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+
+}  
+    
+
+
+.block{
+    width: 50%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    
+}  
+   
+/*End of signup main*/
+
+/*Beginning of signin main*/
+
+.form-wrapper-2 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border-radius: 4PX;
+    background-color: #EFEFEF;
+    position: relative;
+}
+
+.section-1 h4 {
+    text-align: center;
+}
+.form-info {
+    font-size: 11px;
+    text-align: center;
+}
+.form-div-2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #EFEFEF; 
+} 
+button{
+    text-align: right;
+}
+/*End of sign-in main*/
+
+
+
